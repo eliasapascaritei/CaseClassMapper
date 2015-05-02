@@ -3,6 +3,21 @@ This Macro allows you to convert a map to a case class and vice versa
 
 Usage Example:
 
+# build.sbt
+
+```scala
+resolvers ++= Seq(
+  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+)
+
+libraryDependencies ++= {
+  Seq(
+    "com.kreattiewe" %% "case-class-mapper" % "1.0"  
+    )
+}
+
+```
+
 ```scala
 
 trait Mapper[T] {
