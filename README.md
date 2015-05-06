@@ -12,7 +12,7 @@ resolvers ++= Seq(
 
 libraryDependencies ++= {
   Seq(
-    "com.kreattiewe" %% "case-class-mapper" % "1.0"  
+    "com.kreattiewe" %% "case-class-mapper" % "1.0.1"  
     )
 }
 
